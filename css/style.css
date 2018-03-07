@@ -1,0 +1,113 @@
+img[alt="bg"] {
+  width: 100%;
+  position: fixed;
+  margin-top: -50px;
+  z-index: -1;
+}
+
+.buy {
+  background-color: rgba(229, 13, 13, 0.2);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #fff;
+}
+
+.buy:hover {
+  background: grey;
+}
+
+#buybutton {
+  position: fixed;
+  top: -4px;
+  right: 10px;
+}
+
+img[alt=bluePrint] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 75%;
+}
+
+img:hover {
+  outline: 20px solid rgba(229, 13, 13, 0.2);
+}
+
+.fa-chevron-down {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  animation: bounce  5s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-15px);
+  }
+}
+a {
+  color: white;
+}
+
+.columns {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.column {
+  margin: 0 auto;
+}
+
+.sub {
+  text-align: center;
+  margin-bottom: -20px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: white;
+  text-decoration: underline;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.dynamicStretch {
+  text-align: right;
+}
+
+.right {
+  text-align: right;
+}
+
+img[alt="specs"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 45%;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.iframe {
+  margin-top: 100px;
+  margin-bottom: 1px;
+}
