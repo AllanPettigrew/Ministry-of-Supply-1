@@ -35,13 +35,13 @@ img[alt="bg"]{
 img[alt=bluePrint] {
   display: block;
   margin: 0 auto;
-  margin-top: 50px;
-  width: 75%;
+  margin-top: 0px;
+  width: 100%;
 }
 
-img:hover {
-  outline: 20px solid rgba(229,13,13,.2);
-}
+// img:hover {
+//   outline: 20px solid rgba(229,13,13,.2);
+// }
   
 // Down Arrow "Bounce Scroll Down Arrow A PEN BY Yannick Bisaillon"
 
@@ -49,6 +49,7 @@ img:hover {
 .fa-chevron-down {
   display: block;
   margin: 0 auto;
+  margin-top: -150px;
   margin-bottom: 90px;
   animation: 
     bounce 
